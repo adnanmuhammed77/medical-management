@@ -1,0 +1,74 @@
+#header{
+    background-image: url('https://noticialdia.com/wp-content/firewall/uploads/2022/11/674742d4e3e9d5a76797f64c0a82ab0f.png');
+    background-size: cover;
+    height: 500px;
+}
+#header h1{
+    font-size: 90px;
+    color: rgb(240, 240, 240);
+    padding-top: 140px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#header h2{
+    color: #fff;
+    padding-left: 715px;
+}
+.main-one h1{
+    font-family:'Formular';
+    background: #fff;;
+    color: navy;
+    margin-top: 20px;
+}
+.main-one p{
+    text-align: center;
+}
+.card p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: rgb(33, 33, 104);
+    
+}
+.card{
+    border: none;
+}
+
+.main-img{
+    background-image: url('https://www.rajagirihospital.com/images/provencial-msg-bg.jpg');
+    background-size: cover;
+    
+    margin-top: -146px;
+    
+}
+
+.main-img h1{
+    color: #fff;
+    font-size: 45px;
+    padding-top: 185px;
+    padding-left: 136px;
+    
+}
+.main-img h3{
+    color: #fff;
+    padding-left: 812px
+}
+.main-img p{
+    color: #fff;
+    padding-left: 818px;
+    padding-top: 68px;
+    padding-bottom: 55px;
+}
+.main-img h5{
+    color: #fff;
+    padding-left: 817px;
+    padding-bottom: 82px;
+}
+#finalpart{
+    background-color: rgb(229 231 255);
+    margin-bottom: -15px;
+    margin-top: -20px;
+}
+

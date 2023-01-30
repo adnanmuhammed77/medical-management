@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #f6ebeb;
+    height: fit-content;
+    border-bottom: 1px rgb(44, 43, 43) solid
+    
+
+}
+#navbarNav ul li a{
+    color: rgb(36, 51, 97);
+    font-weight: bold;
+    font-size: 16px;    
+}
+#navbarNav ul li a:hover{
+    color: rgb(224, 33, 90);
+}
+/* .nav-item{
+    font-size: 14px;
+    font-weight:400;
+    
+} */
+.navbar-brand{
+    color: rgb(16, 153, 180);
+   font-weight: bold;
+}
+.navbar-brand:hover{
+color: green;
+}
+
+.text-white{
+    text-decoration: none;
+}

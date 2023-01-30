@@ -1,0 +1,114 @@
+{% extends 'theme.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+  <section id="header">
+    
+   <h3 style="color: #fff;">m.c hospital</h3>
+   
+     <a class="h-btn1" href="{% url 'doctors' %}">Our Doctors</a>
+     <a class="h-btn2" href="{% url 'dep-page' %}">Our Specialities</a>
+
+     <a class="h-btn3" href="{% url 'medicine' %}">MEDICINE</a>
+     {% if user.is_authenticated %}
+     <a class="h-btn4" href="{% url 'bookingpage' %}">BOOK AN APPOINTMENT</a>
+    
+     {% else %}
+     <a class="h-btn4" href="{% url 'appoinment' %}">BOOK AN APPOINTMENT</a>
+     {% endif %}
+
+     <div class="body-contant">
+      <div class="header-one">
+        <h1>M C HOSPITAL</h1>
+        <h3>Not Sure Which Doctor to Consult?</h3>
+        <h2>We are Here to Help!</h2>
+        <h5>Safest Treatment by Expert Apollo Doctors in India.</h5> <br>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row gy-3" >
+        <div class="col-3" >
+          <div class="card ">
+            <div class="card-body">
+             <a href="{% url 'appoinment' %}" class="btn">ACCOUNT SIGN-IN </a>
+           </div>
+         </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+             <a href="{% url 'doctors' %}" class="btn">DOCTORS</a>
+           </div>
+         </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+             <a href="#" class="btn">EMERGENCY:+91-9421005533</a>
+           </div>
+         </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <div class="card-body">
+             <a href="#" class="btn">ENQUIRY:+91-9413423333</a>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+   
+<div class="departments">
+  <div class="dep-one">
+  <h5>DEPARTMENTS</h5>
+  <h1 style="padding-top: 20px;">Our <br>Departments</h1>
+  <p >To undertake specialized and <br> holistic healthcare services of <br> world standard and to provide <br> them to all sections....</p>
+</div>
+<div class="dep-two">
+  <div class="card-two">
+    <div class="card-body">
+     <h5>Center of excellence <br>in Gastrointestinal <br>scrience</h5>
+    </div>
+  </div>
+  <div class="card-three">
+    <div class="card-body">
+      <h5>Cardiac Sciences</h5>
+    </div>
+  </div>
+  <div class="card-four">
+    <div class="card-body">
+     <h5>General Medicine</h5>
+    </div>
+  </div>
+  <div class="card-five">
+    <div class="card-body">
+      <h5>Neuro Sciences</h5>
+    </div>
+  </div>
+  <div class="card-six">
+    <div class="card-body">
+      <h5> Medical Oncology and Hemato Oncology</h5>
+    </div>
+  </div>
+  <div class="card-seven">
+    <div class="card-body">
+      <h5>Surgical Oncology</h5>
+    </div>
+  </div>
+</div>
+<a class="view" href="{% url 'dep-page' %}">view all services</a>
+  </section> 
+</body>
+</html>
+{% endblock %}
+

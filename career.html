@@ -1,0 +1,70 @@
+{% extends 'theme.html' %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'career.css' %}">
+</head>
+<body>
+    <section id="header">
+        <div class="content">
+            <h3>CAREER</h3>
+            <h1>Career@M.C Hospital.</h1>
+            <p>Forward your resumes to recruitment@MChospital.com to <br> become a part of M.C Hospital family.</p>
+
+        </div>
+        </section>  
+        <br>
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="border: none;">
+                <div class="card-body">
+                  <h5 class="card-title text-center" style="font-size: 35px; color: navy; font-style: italic; padding-top: 40px;">Current <br>Vacancies</h5>
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <div class="card">
+                <div class="card-body" style="background-color: rgb(28, 28, 66); color: WHITE;">
+                  <h5 class="card-title">MEDICAL OFFICER :</h5>
+                  <p class="card-text">MBBS with TCMS Registration with Nill</p>
+                  <a href="#" class="btn btn-warning">APPLY NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card" style="border: none;" >
+                <div class="card-body">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-5 my-3">
+                <div class="card-body" style="background-color: rgb(28, 28, 66); color: WHITE;">
+                    <h5 class="card-title">STAFF NURSE/TRAINEE NURSE :</h5>
+                    <p class="card-text">B.Sc./GNM/Post Basic B.Sc. with 0-8 Years</p>
+                    <a href="#" class="btn btn-warning">APPLY NOW</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+     <div class="images">
+
+     </div>   
+</body>
+</html>
+
+{% endblock %}

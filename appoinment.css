@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(34, 34, 69);
+}
+
+.navbar{
+    background-color: #fff;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+}
+#body-one{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/images1/Medical-Wallpapers-HD-Free-download.jpg');
+    background-size: cover;
+    width: 100%;
+    height:500px;
+}

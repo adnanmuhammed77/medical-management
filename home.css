@@ -1,0 +1,177 @@
+/* body{
+    background-image: url('https://img.freepik.com/premium-photo/black-stethoscope-medical-tool-healthcare-blue-wall-with-copy-space_103324-532.jpg?w=1060');
+    background-size: cover;
+} */
+#header{
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    height: 2000;
+    width: 200px;
+}
+.h-btn1{
+    color:#203367;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-left: 55px;
+
+}
+.h-btn2{
+    color: #203367;
+    font-size: 18px;
+    margin-left: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+}
+.h-btn1:hover{
+    color: red;
+}
+.h-btn2:hover{
+    color: red;
+}
+.h-btn3{
+   color: white;
+   background-color: #203367;
+   text-decoration: none;
+   margin-left: 800px;
+   border-radius: 3px;
+   letter-spacing: 1px;
+   font-weight: normal;
+   padding: 5px 22px 5px 22px;
+   font-size: 16px;
+
+}
+.h-btn4{
+    color: white;
+    background-color: rgb(235, 53, 98);
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    padding: 5px 22px 5px 22px;
+    font-size: 16px;
+ 
+ }
+ .h-btn3:hover{
+    color: white;
+    background-color:rgb(235, 53, 98) ;
+ }
+ .h-btn4:hover{
+    color: white;
+    background-color: #203367;
+ }
+ 
+ 
+ .header-one {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(40, 40, 40);
+}
+.header-one h1{
+    font-size: 100px;
+    color: rgb(20, 121, 88);
+}
+ .header-one h5{
+    font-weight: lighter;
+ }
+ .card{
+    background-color:rgb(22, 137, 91);
+    
+ }
+ .card:hover{
+    background-color: rgb(207, 44, 82);
+ }
+ .btn{
+    color: #fff;
+ }
+ 
+ .departments{
+    margin-top: 100px;
+    margin-left: 90px;
+    color: #0e0e0e;
+ }
+ .departments h5{
+    color: rgb(210, 37, 37);
+ }
+ .dep-one{
+    width: 25%;
+ }
+ .card-two{
+    width: 271px;
+    height: 132px;
+    
+    margin-left:25% ;
+    margin-top :-210px;
+ }
+ .card-two:hover{
+    background-color: rgb(250, 69, 90);
+ }
+ .card-three{
+    width: 271px;
+    height: 132px;
+   
+    margin-left: 45%;
+    margin-top: -132px;
+}
+.card-three:hover{
+    background-color: rgb(250, 69, 90);
+ }
+ .card-four{
+    width: 271px;
+    height: 132px;
+    
+    margin-left: 65%;
+    margin-top: -131px;
+ }
+ .card-four:hover{
+    background-color: rgb(250, 69, 90);
+ }
+ .card-five{
+    width: 271px;
+    height: 132px;
+    
+    margin-left: 25%;
+    margin-top: 0px;
+ }
+ .card-five:hover{
+    background-color: rgb(250, 69, 90);
+ }
+ .card-six{
+    width: 271px;
+    height: 132px;
+    
+    margin-left: 45%;
+    margin-top: -131px;
+ }
+ .card-six:hover{
+    background-color: rgb(250, 69, 90);
+ }
+ .card-seven{
+        width: 271px;
+        height: 132px;
+        
+        margin-left: 65%;
+        margin-top: -132px;
+ }
+ .card-seven:hover{
+    background-color: rgb(250, 69, 90);
+    
+ }
+ .dep-two h5{
+color: rgb(0, 0, 0);
+font-weight:400;
+ }
+.view{
+   margin-left: 933px;
+   text-decoration: none;
+   color: red;
+   font-size: 25px;
+   
+}
